@@ -1,10 +1,10 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h1>📖 Admin Dasboard</h>
+  <h1>📖 Admin Dashboard</h>
 </div>
 
- A simple Admin dasboard project that showcases different features of a dashboard. 📚
+ A simple Admin dashboard project that showcases different features of a dashboard. 📚
 
 ## 🛠 Built With <a name="built-with"></a>
 
