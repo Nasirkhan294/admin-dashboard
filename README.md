@@ -29,7 +29,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Project Demo]()
+- [Live Project Demo](https://nasirkhan294.github.io/admin-dashboard/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
