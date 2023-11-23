@@ -63,7 +63,7 @@ git clone git@github.com:Nasirkhan294/admin-dashboard.git
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Feature  Interactivity**
+- [ ] **Features  Interactivity**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
