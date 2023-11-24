@@ -29,23 +29,10 @@ header {
     grid-column: 2 / -1;
     display: grid;
     gap: 2rem;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
     padding: 2rem;
     color: #5646E3;
 }
-
-.sidebar {
-    grid-column: 1/2;
-    grid-row: 1 / -1;
-    background-color: #5646E3;
-}
-
-main {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    background-color: #E2E8F0;
-}
-
 
 .search-wrapper {
     grid-column: 1 /4;
@@ -105,4 +92,55 @@ main {
     outline: none;
     border-radius: 1rem;
     color: #fff;
+}
+
+.sidebar {
+    grid-area: 1 / 1 / -1 / 2;
+    background-color: #5646E3;
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    padding: 1rem;
+}
+
+.sidebar .logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 90%;
+    padding-top: 1rem;
+}
+
+.sidebar .logo img {
+    width: 18%;
+}
+
+.sidebar h3 {
+    font-size: 1.5rem;
+    color: #fff;
+    padding-top: 0.2rem;
+}
+
+.sidebar .main-links, .other-links  {
+    margin: 2rem  1rem;
+}
+
+.sidebar ul li {         
+    display: flex;
+    margin: 1rem 0;
+    color: #fff;
+}
+
+.sidebar ul li i {
+    margin-right: 1rem;
+    font-size: 1rem;
+}
+
+.sidebar ul li p  {
+    font-weight: 700;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: #E2E8F0;
 }
