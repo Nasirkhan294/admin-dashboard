@@ -1,11 +1,14 @@
+/* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+/* Reset */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Body */
 body {
     font-family: 'Roboto', sans-serif;
     display: grid;
@@ -13,6 +16,7 @@ body {
     height: 100vh;
 }
 
+/* Global Styles */
 img {
     width: 15%;
 }
@@ -26,6 +30,7 @@ ul {
     list-style-type: none;
 }
 
+/* Header */
 header {
     grid-column: 2 / -1;
     display: grid;
@@ -36,12 +41,13 @@ header {
 }
 
 .search-wrapper {
-    grid-column: 1 /4;
+    grid-column: 1 / 4;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
+/* Search Input */
 .search-input {
     width: 32rem;
     padding: 0.3rem;
@@ -68,6 +74,7 @@ header {
     align-items: center;
 }
 
+/* User Greeting */
 .greeting {
     font-weight: 700;
 }
@@ -84,6 +91,7 @@ header {
     align-items: center;
 }
 
+/* Header Button */
 .header-btn {
     justify-self: flex-start;
     width: 5rem;
@@ -100,6 +108,7 @@ header {
     background-color: #110769;
 }
 
+/* Sidebar */
 .sidebar {
     grid-area: 1 / 1 / -1 / 2;
     background-color: #5646E3;
@@ -117,6 +126,7 @@ header {
     padding-top: 1rem;
 }
 
+/* Sidebar Logo */
 .sidebar .logo img {
     width: 18%;
 }
@@ -152,6 +162,7 @@ header {
     font-weight: 700;
 }
 
+/* Main Content */
 main {
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -169,7 +180,7 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1rem;
-    height: 38rem;
+    height: 35rem;
 }
 
 .projects .project {
@@ -205,12 +216,13 @@ main {
     color: #5646E3;
 }
 
+/* Announcements */
 .announcements ul {
     background-color: #fff;
     padding: 1.5rem;
     border: none;
     border-radius: 0.5rem;
-    height: 20rem;
+    height: 18.5rem;
     margin: 1rem 0;
 }
 
@@ -233,6 +245,35 @@ main {
     padding: 0.5rem 0;
 }
 
-.trending {
-    background-color: aqua;
+/* Trends Section */
+.trends-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 1rem 3rem 1rem 1rem;
+    margin-top: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    height: 14rem;
+}
+
+.trend {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.trend img {
+    width: 22%;
+}
+
+.trend p {
+    display: flex;
+    flex-direction: column;
+}
+
+.trend-tag {
+    font-weight: 700;
+    padding-bottom: 0.2rem;
 }
