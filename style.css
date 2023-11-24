@@ -127,11 +127,12 @@ header {
     padding-top: 0.2rem;
 }
 
-.sidebar .main-links, .other-links  {
+.sidebar .main-links,
+.other-links {
     margin: 1rem;
 }
 
-.sidebar ul li {         
+.sidebar ul li {
     display: flex;
     margin-bottom: 1rem;
     color: #fff;
@@ -147,15 +148,15 @@ header {
     font-size: 1rem;
 }
 
-.sidebar ul li p  {
+.sidebar ul li p {
     font-weight: 700;
 }
 
 main {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
     background-color: #E2E8F0;
-    padding: 1rem;
+    padding: 1rem 1.5rem;
     color: #110769;
     gap: 1rem;
 }
@@ -175,7 +176,7 @@ main {
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    border-left: 5px  solid  #110769;
+    border-left: 5px solid #110769;
     border-radius: 0.5rem;
     padding: 1rem;
 }
@@ -193,7 +194,7 @@ main {
     justify-content: space-between;
     align-items: flex-end;
     width: 6rem;
-    height: 2rem;
+    height: 3rem;
 }
 
 .project-icons i {
@@ -204,11 +205,34 @@ main {
     color: #5646E3;
 }
 
-.announcements {
-    background-color: green;
+.announcements ul {
+    background-color: #fff;
+    padding: 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    height: 20rem;
+    margin: 1rem 0;
 }
 
-.trending  {
+.announcements ul .list-items {
+    border-bottom: 1px solid #110769;
+    margin-bottom: 0.5rem;
+}
+
+.announcements ul .list-items:last-child {
+    border-bottom: none;
+}
+
+.announcements ul .list-items h6 {
+    color: #5646E3;
+    font-size: 0.9rem;
+}
+
+.announcements ul .list-items p {
+    font-size: 0.7rem;
+    padding: 0.5rem 0;
+}
+
+.trending {
     background-color: aqua;
 }
-
