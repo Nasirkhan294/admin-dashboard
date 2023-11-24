@@ -6,6 +6,8 @@
 
  A simple Admin dashboard project that showcases different features of a dashboard. 📚
 
+![Admin Dashboard](./images/admin-dashboard.png)
+
 ## 🛠 Built With <a name="built-with"></a>
 
   <ul>
@@ -45,6 +47,33 @@ In order to run this project you need:
 git clone git@github.com:Nasirkhan294/admin-dashboard.git
 ```
 
+### Setup
+
+Clone this repository to your desired folder:
+
+```
+  cd desired-folder
+  git clone git@github.com:Nasirkhan294/to-do-list.git
+```
+
+### Deployment
+
+You can deploy this project using **Github-Pages**. In order to make your project live on Github, you'll want to push your updated repo by using these commands:
+
+```
+git add --all or git add .
+
+```
+
+```
+git commit -m "your commit message"
+
+```
+
+```
+git push origin {i.e, your repo name}
+
+```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
