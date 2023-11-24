@@ -19,6 +19,7 @@ img {
 
 i {
     font-size: 1.5rem;
+    cursor: pointer;
 }
 
 ul {
@@ -92,6 +93,11 @@ header {
     outline: none;
     border-radius: 1rem;
     color: #fff;
+    cursor: pointer;
+}
+
+.header-btn:hover {
+    background-color: #110769;
 }
 
 .sidebar {
@@ -100,6 +106,7 @@ header {
     display: grid;
     grid-template-rows: auto auto 1fr;
     padding: 1rem;
+    gap: 2rem;
 }
 
 .sidebar .logo {
@@ -121,13 +128,18 @@ header {
 }
 
 .sidebar .main-links, .other-links  {
-    margin: 2rem  1rem;
+    margin: 1rem;
 }
 
 .sidebar ul li {         
     display: flex;
-    margin: 1rem 0;
+    margin-bottom: 1rem;
     color: #fff;
+    cursor: pointer;
+}
+
+.sidebar ul li:hover {
+    color: #110769;
 }
 
 .sidebar ul li i {
@@ -143,4 +155,60 @@ main {
     display: grid;
     grid-template-columns: 2fr 1fr;
     background-color: #E2E8F0;
+    padding: 1rem;
+    color: #110769;
+    gap: 1rem;
 }
+
+.projects-wrapper h3 {
+    margin-bottom: 1.2rem;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    height: 38rem;
+}
+
+.projects .project {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-left: 5px  solid  #110769;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.project .title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #5646E3;
+}
+
+.project-icons {
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 6rem;
+    height: 2rem;
+}
+
+.project-icons i {
+    font-size: 1.2rem;
+}
+
+.project-icons i:hover {
+    color: #5646E3;
+}
+
+.announcements {
+    background-color: green;
+}
+
+.trending  {
+    background-color: aqua;
+}
+
